@@ -1,0 +1,98 @@
+{
+    "fileFormat": {
+        "charsetName": "UTF-8",
+        "fieldsDelimitedBy": ",",
+        "fieldsEnclosedBy": "\"",
+        "linesTerminatedBy": "\n"
+    },
+    "objects": [
+        {
+            "connector": "CSV",
+            "fullyQualifiedName": "covid_csv",
+            "label": "covid.csv",
+            "name": "covid_csv",
+            "fields": [
+                {
+                    "fullyQualifiedName": "Province_State",
+                    "name": "Province_State",
+                    "type": "Text",
+                    "label": "Province/State"
+                },
+                {
+                    "fullyQualifiedName": "Province_State_Original",
+                    "name": "Province_State_Original",
+                    "type": "Text",
+                    "label": "Province/State (Original)"
+                },
+                {
+                    "fullyQualifiedName": "Country_Region",
+                    "name": "Country_Region",
+                    "type": "Text",
+                    "label": "Country/Region"
+                },
+                {
+                    "fullyQualifiedName": "Lat",
+                    "name": "Lat",
+                    "type": "Numeric",
+                    "label": "Lat",
+                    "precision": 18,
+                    "defaultValue": "0",
+                    "scale": 1,
+                    "format": "0",
+                    "decimalSeparator": "."
+                },
+                {
+                    "fullyQualifiedName": "Long",
+                    "name": "Long",
+                    "type": "Numeric",
+                    "label": "Long",
+                    "precision": 18,
+                    "defaultValue": "0",
+                    "scale": 1,
+                    "format": "0",
+                    "decimalSeparator": "."
+                },
+                {
+                    "fullyQualifiedName": "period",
+                    "name": "period",
+                    "type": "Date",
+                    "label": "period",
+                    "format": "M/d/yy"
+                },
+                {
+                    "fullyQualifiedName": "confirmed",
+                    "name": "confirmed",
+                    "type": "Numeric",
+                    "label": "confirmed",
+                    "precision": 18,
+                    "defaultValue": "0",
+                    "scale": 1,
+                    "format": "0",
+                    "decimalSeparator": "."
+                },
+                {
+                    "fullyQualifiedName": "death",
+                    "name": "death",
+                    "type": "Numeric",
+                    "label": "death",
+                    "precision": 18,
+                    "defaultValue": "0",
+                    "scale": 1,
+                    "format": "0",
+                    "decimalSeparator": "."
+                },
+                {
+                    "fullyQualifiedName": "recovered",
+                    "name": "recovered",
+                    "type": "Numeric",
+                    "label": "recovered",
+                    "precision": 18,
+                    "defaultValue": "0",
+                    "scale": 1,
+                    "format": "0",
+                    "decimalSeparator": "."
+                }
+            ]
+        }
+    ]
+}
